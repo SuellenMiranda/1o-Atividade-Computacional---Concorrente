@@ -1,0 +1,5 @@
+# Questão 01
+A) Deve-se criar uma aplicação que modele o funcionamento de sua conta bancária. Esta conta será o recurso compartilhado e deverá ser acessada/modificada por três threads: o thread AEsperta, othread AEconomica e o thread AGastadora, concorrentemente. <br>
+• 1. AGastadora: este thread (de atitude voraz) deverá, a cada 3000 milesegundos verificar se há saldo suficiente, e retirar 10 reais da sua conta. Este thread deve disputar por dinheiro, com os demais threads, concorrentemente. <br>
+• 2. AEsperta: este thread será mais comedido que a anterior: somente a cada 6000milesegundos, irá verificar o seu saldo. Mas não se engane: se houver saldo suficiente, estethread irá retirar 50 reais da sua conta. Este thread deve disputar com outros threads, concorrentemente. <br>
+• 3. AEconomica: de todos as threads, esta será a que mais prezará por você e suas finanças. Ela irá verificar o saldo de sua conta apenas a cada 12000 milesegundos. Se houver fundos, a thread econômica irá tentar retirar apenas 5 reais da sua conta. Este thread deve disputar com outros threads, concorrentemente. <br>
