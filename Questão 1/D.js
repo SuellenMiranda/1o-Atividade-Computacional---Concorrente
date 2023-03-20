@@ -32,4 +32,3 @@ public class APatrocinadora extends Thread {
 
 //É importante lembrar que, para que o código funcione corretamente, as demais threads (AGastadora, AEsperta e AEconomica) devem chamar o método wait() dentro do laço while quando não houver saldo suficiente na conta para realizar o saque. Quando a thread APatrocinadora realizar um depósito, ela deve chamar o método notifyAll() para notificar todas as outras threads que estavam aguardando para realizar saques.
 
-//
