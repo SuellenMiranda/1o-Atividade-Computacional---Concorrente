@@ -1,5 +1,5 @@
 # 1o-Atividade-Computacional---Concorrente
-Data da entrega: 24/03/2023 <br>
+Data da entrega: 27/03/2023 23:55 <br>
 4 componentes por grupo <br>
 Objetivo: Pretende-se com este trabalho desenvolver sistemas concorrentes com o uso de threads.
 <br>
