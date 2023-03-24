@@ -1,6 +1,6 @@
 //Para atender aos requisitos da Questão 01B, podemos criar uma classe ContaBancaria em Java que representa a conta bancária compartilhada pelas threads. A classe deve conter os seguintes atributos: numeroConta, titularConta e saldo. Além disso, deve ter construtores, getters/setters, método toString, validação para número de conta negativo e implementação dos métodos deposito e saque para manipulação do saldo da conta.
 
-//Segue abaixo um esboço de diagrama de classes para a solução: no arquivo ContaBancaria.php
+//Segue abaixo um esboço de diagrama de classes para a solução: no arquivo ContaBancaria.uml
 
 //Para evitar problemas de concorrência, podemos utilizar o recurso de sincronização do Java, utilizando a palavra-chave synchronized em métodos ou blocos críticos que manipulam o saldo da conta. Isso garante que apenas uma thread por vez acesse o recurso compartilhado.
 
